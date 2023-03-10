@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2960176550192343078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5652967308552254446, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308552254446, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.188652
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308700729403, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652967308701038525, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+      propertyPath: m_Name
+      value: Tower Ataque
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3808740295849685182, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+--- !u!114 &7451195904810405320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5652967308544845294, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+  m_PrefabInstance: {fileID: 2960176550192343078}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7451195904920559515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5652967308701038525, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+  m_PrefabInstance: {fileID: 2960176550192343078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1678370489975586993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7451195904920559515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea1c03764591b84f87200db818fe848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Disparador: {fileID: 8383078537671175752}
+  balaPrefab: {fileID: 5134184161632340823, guid: 6eecab493fd540c4b816f7ee440c59ff, type: 3}
+  botonVolver: {fileID: 0}
+  countToShoot: 1
+  initCountToShoot: 0.5
+  inContact: 0
+  health: 1000
+  maxhealth: 1000
+  healthBarUI: {fileID: 7451195905862263654}
+  slider: {fileID: 7451195904810405320}
+  tagEnemigo: Player
+  botonController: {fileID: 0}
+  BotonAliado: {fileID: 0}
+--- !u!1 &7451195905862263654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5652967309646760768, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+  m_PrefabInstance: {fileID: 2960176550192343078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8383078537671175752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6719939504816293486, guid: abb9d511c391e3e4ebb83d54921efcaa, type: 3}
+  m_PrefabInstance: {fileID: 2960176550192343078}
+  m_PrefabAsset: {fileID: 0}
